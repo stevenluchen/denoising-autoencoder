@@ -17,8 +17,6 @@ This project implements a **convolutional autoencoder** trained on the **CIFAR-1
 - **Optimizer:** Adam with learning rate scheduling.
 
 ## **Results**
-### Noise examples
-![Noise examples](https://raw.githubusercontent.com/stevenluchen/denoising-autoencoder/refs/heads/main/results/noise_examples.png)
-
-### Reconstructed images
-![Reconstructed images](https://raw.githubusercontent.com/stevenluchen/denoising-autoencoder/refs/heads/main/results/noisy-reconstructions.png)
+- Achieved **significant noise reduction** while preserving key image features.
+- Encoder successfully compressed high-dimensional data into a **low-dimensional latent space**.
+- See `results` directory 
