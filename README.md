@@ -5,7 +5,7 @@ This project implements a **convolutional autoencoder** trained on the **CIFAR-1
 
 ## **Methodology**
 ### **1. Data Preprocessing**
-- Added synthetic noise (Gaussian noise, salt-and-pepper) to CIFAR-100 images.
+- Added synthetic noise (Gaussian noise, masked noise, salt-and-pepper) to CIFAR-100 images.
 - Normalized pixel values for stable training.
 
 ### **2. Model Architecture**
@@ -15,3 +15,10 @@ This project implements a **convolutional autoencoder** trained on the **CIFAR-1
 ### **3. Training**
 - **Loss Function:** Mean Squared Error (MSE) to minimize reconstruction error.
 - **Optimizer:** Adam with learning rate scheduling.
+
+## **Results**
+### Noise examples
+![Noise examples](https://raw.githubusercontent.com/stevenluchen/denoising-autoencoder/refs/heads/main/results/noise_examples.png)
+
+### Reconstructed images
+![Reconstructed images](https://raw.githubusercontent.com/stevenluchen/denoising-autoencoder/refs/heads/main/results/noisy-reconstructions.png)
